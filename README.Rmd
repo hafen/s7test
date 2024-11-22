@@ -1,0 +1,30 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# s7test
+
+## Example
+
+```{r example1}
+library(s7test)
+
+x <- Range(start = 1, end = 10)
+x
+
+y <- myclass()
+y
+```
